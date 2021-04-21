@@ -1,0 +1,126 @@
+body {font-family: 'Lato', sans-serif;
+	font-size: 16px;}
+*, *:before,*:after {box-sizing: border-box; margin: 0; padding: 0;}
+ul, li {display: block;
+		padding: 0;
+		margin: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*General*/
+
+body {text-align: center;}
+h2 {font-size: 40px;
+	font-weight: 400;
+	line-height: 40px;
+	margin-bottom: 30px;
+	color:#2d3950;}
+
+
+/*Header*/
+
+
+header {background-color: #f6f9f9;
+		height: auto;}
+.logo_block {height: 100px;
+			justify-content:flex-start;
+			align-items: center;
+			margin: 0 0 0 25px;}
+
+
+/* Intro */
+
+.intro {padding: 215px 0 90px 0;
+		background: url(../assets/background.jpg) no-repeat center;
+		background-size: cover;
+		color: #fff;
+		text-align: center;}
+
+.intro h1 {font-size: 120px;
+	line-height: 120px;
+	font-weight: bold;
+	text-transform: uppercase;}
+
+.intro hr {border:none;
+			background-color: #15a4fa;
+			color: #15a4fa;
+			height: 2px;
+			width: 90%;
+			margin: 35px auto;}
+
+
+
+.cta_button {width: 200px;
+			height: 55px;
+			border: 1px solid #15a4fa;
+			border-radius: 3px;
+			background: transparent;
+			font-size: 18px;
+			font-weight: 400;
+			color: #fff;
+			margin: 67px 0 178px 0;
+			cursor: pointer;
+			outline: none;}
+
+.intro p {font-size: 20px;
+				font-weight: 400;
+				line-height: 20px;}
+
+.intro span {text-transform: uppercase;}
+
+
+.arrow {width: 15px;
+		height: 15px;
+		border-top: 3px solid #fff;
+		border-left: 3px solid #fff;
+		margin: 0 auto;
+		 transform: rotate(-135deg);
+    	-webkit-transform: rotate(-135deg);}
+
+
+/*Features*/
+
+.features {padding: 80px 0 0 0;
+			height: auto;
+			background-color: #f6f9f9;}
+
+.features p {font-size:20px;
+			font-weight:400;
+			line-height: 32px;
+			color:#999999;}
+
+
+.features_block {padding: 65px 0;
+				justify-content: space-between;
+				align-items: center;}
+.bg {height: auto;
+	background-color: #fff;}
+
+.features_block h3 {
+				font-size:22px;
+				color:#2d3950;
+				margin: 33px 0 18px 0;
+				font-weight: 400;}
+
+.features_block p {font-size:15px;
+				color:#999999;
+				line-height: 22px;}
+
+
+/* Cases */
+
+.cases {padding: 80px 0 86px 0;
+		height: auto;
+		background-color: #f6f9f9;}
+
+.cases_image {width: 100%;
+			height: auto;
+			object-fit: cover;
+			margin: 0 0 30px 0;}
+
+.cases_image_block {width: 100%;}
+
+.cases p {font-size:15px;
+		color:#999999;
+		line-height: 15px;
+		margin-bottom: 85px;}
