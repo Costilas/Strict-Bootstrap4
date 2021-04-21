@@ -124,3 +124,126 @@ header {background-color: #f6f9f9;
 		color:#999999;
 		line-height: 15px;
 		margin-bottom: 85px;}
+
+
+/*Contacts*/
+
+
+.contacts {padding: 75px 0 110px 0;
+			height: auto;
+			background: url(../assets/contactbg.jpg) no-repeat center;
+			background-size: cover;}
+
+.contacts p {font-size:15px;
+			color:#999999;
+			line-height: 15px;
+			margin-bottom: 85px;}
+
+.contacts h2 {color: #fff;}
+
+input::placeholder, textarea::placeholder {color:#999;}
+
+.form_item {display: block;
+			width: 100%;
+			margin-bottom: 20px;
+			height: 60px;
+			border-radius: 3px;
+			background:transparent;
+			border:1px solid #999;
+			padding: 20px;
+			font-size: 15px;
+			line-height: 15px;
+			outline: none;
+			color: #fff;}
+
+.area {height: 160px;
+		resize:none}
+
+.contact_form {width: 100%;
+				height: auto;}
+
+.check_block, .news_checkbox {align-items: center;
+			height: auto;}
+
+.news_checkbox {color: #fff;}
+.news_checkbox span {margin-left:15px;}
+
+.form_button {height: 45px;
+			width: 140px;
+			border-color: #15a4fa;
+			color:#fff;
+			font-size:18px;
+			line-height: 18px;
+			padding: 0;
+			margin: 0px;
+			cursor: pointer;}
+
+/*Footer*/
+.footer {padding: 25px 0;}
+.footer_info {text-align: left;
+				color: #999999;
+				font-size:15px;
+				font-weight:400;
+				height: auto;
+				line-height:15px;
+				align-items: center;}
+.footer_info p {margin-bottom: 0;}
+
+.social_icon {margin-left: 5px;
+			cursor: pointer;}
+
+.footer_content {display: flex;
+				justify-content: space-between;
+				align-items: center;
+				}
+
+
+
+.liked {background: url(../assets/Hover_liked.png);
+		height: 40px;
+		width: 40px;
+		transition: background 0.5s ease;}
+.google {background: url(../assets/Hover_google.png);
+		height: 40px;
+		width: 40px;
+		transition: background 0.5s ease;}
+.twitter {background: url(../assets/Hover_twitter.png);
+		height: 40px;
+		width: 40px;
+		transition: background 0.5s ease;}
+.facebook {background: url(../assets/Hover_facebook.png);
+		height: 40px;
+		width: 40px;
+		transition: background 0.5s ease;}
+.liked:hover {background:url(../assets/Normal_liked.png);}
+.google:hover {background:url(../assets/Normal_google.png);}
+.twitter:hover {background:url(../assets/Normal_twitter.png);}
+.facebook:hover {background:url(../assets/Normal_facebook.png);}
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+	.footer_content {display: block;}
+	.footer_info {margin: 40px auto;
+					text-align: center;
+					justify-content: center;}
+	.footer_icon_block {justify-content: center;}
+	.social_icon {margin-left: 20px;}
+	.facebook {margin-left:0;}
+
+	.check_block {display: block !important;}
+	.news_checkbox  {justify-content: center !important;
+					margin: 40px 0;}
+	.form_button {margin: 0 auto;}}
+
+@media screen and (min-width: 280px) and (max-width: 450px) {
+	.intro h1 {font-size: 75px;
+	line-height: 75px;
+	font-weight: bold;
+	text-transform: uppercase;}
+
+}
