@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 body {font-family: 'Lato', sans-serif;
 	font-size: 16px;}
 *, *:before,*:after {box-sizing: border-box; margin: 0; padding: 0;}
@@ -5,7 +6,6 @@ ul, li {display: block;
 		padding: 0;
 		margin: 0;}
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /*General*/
 
@@ -43,7 +43,6 @@ header {background-color: #f6f9f9;
 
 .intro hr {border:none;
 			background-color: #15a4fa;
-			color: #15a4fa;
 			height: 2px;
 			width: 90%;
 			margin: 35px auto;}
@@ -74,8 +73,7 @@ header {background-color: #f6f9f9;
 		border-top: 3px solid #fff;
 		border-left: 3px solid #fff;
 		margin: 0 auto;
-		 transform: rotate(-135deg);
-    	-webkit-transform: rotate(-135deg);}
+		 transform: rotate(-135deg);}
 
 
 /*Features*/
